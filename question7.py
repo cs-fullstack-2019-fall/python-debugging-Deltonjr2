@@ -8,14 +8,17 @@ class Books:
         self.genre = genre
         self.author = author
 
-    def changeRating(self, newRating):
+    def changeRating(self,newRating):
         self.rating = newRating
 
-book1 = Books("Programmng Python", 10, "Non-Fiction", "Kenn")
-book2 = Books("Programmng JavaScript", 10, "Non-Fiction", "Kevin")
+book1 = Books("Programmng Python", 10, "Non-Fiction", "Kenn"):
+book2 = Books("Programmng JavaScript", 10, "Non-Fiction", "Kevin"):
 book3 = Books("Programmng HTML", 10, "Non-Fiction", "Erin")
 
 bookArray = [book1, book2, book3]
-
 for eachBook in bookArray:
     print(eachBook.name())
+
+
+
+    # //The function does not need a parameter. You need to get the name property. The code needs a colon at the end of it.

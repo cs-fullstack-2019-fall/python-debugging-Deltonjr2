@@ -6,7 +6,7 @@ class Pet:
         self.type = type
         self.breed = breed
 
-    def printAllAttributes[self]:
+    def printAllAttributes(self):
         print(F"The type is: {self.type}. The breed is: {self.breed}")
 
 emptyArray = []
@@ -20,3 +20,5 @@ emptyArray.append(pet3)
 
 for eachElement in emptyArray:
     eachElement.printAllAttributes()
+
+    # In this question there was a double self I removed one of the selfs and that debugged the error.
